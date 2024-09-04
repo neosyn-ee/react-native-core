@@ -9,7 +9,7 @@ import React, {
 } from 'react';
 import {Modal, StatusBar, View} from 'react-native';
 import RnmcVideoPlayer from 'react-native-media-console';
-import Video, {OnProgressData, OnSeekData} from 'react-native-video';
+import {OnProgressData, OnSeekData, VideoRef} from 'react-native-video';
 import tw from 'twrnc';
 
 import {
@@ -34,7 +34,7 @@ export const Player: FC<PlayerProps> = memo(
     muted,
     ...props
   }) => {
-    const videoRef = useRef<Video | null>(null);
+    const videoRef = useRef<VideoRef | null>(null);
 
     const handleOnLoad = () => {
       if (playerInfo?.current.elapsedSecs) {

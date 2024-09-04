@@ -15,7 +15,7 @@ const HomeScreen: FC = () => {
             fullscreenOrientation="landscape"
             disableControlsWhen={{default: false, fullscreen: false}}
             source={{
-              uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+              uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
             }}
           />
         </View>

@@ -1,5 +1,5 @@
 import {useFocusEffect} from '@react-navigation/native';
-import React, {useCallback, useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {View, ViewToken} from 'react-native';
 import Animated, {
   useAnimatedScrollHandler,
@@ -9,7 +9,11 @@ import tw from 'twrnc';
 
 import {VirtualizedVideoListProps} from './VirtualizedVideoList.type';
 import Post from '../Post/Post';
-import {PostExposedInstanceValue, PostType} from '../Post/Post.types';
+import {
+  PostExposedInstanceValue,
+  PostProps,
+  PostType,
+} from '../Post/Post.types';
 import Spinner from '../Spinner/Spinner';
 
 const VirtualizedVideoList = <TItem,>({
@@ -128,6 +132,8 @@ const VirtualizedVideoList = <TItem,>({
     [],
   );
 
+  const memoizedValue = useMemo(() => renderItem, [data, currentPage]);
+
   const maxItemNum = 100;
   const itemsCount = data.length;
   useEffect(() => {
@@ -154,15 +160,16 @@ const VirtualizedVideoList = <TItem,>({
     setCurrentPage(initialPage);
     await fetchData?.(initialPage);
   };
+  const keyExtractor = useCallback((item: PostProps) => item.id.toString(), []);
 
   return (
     <View style={tw`flex-1`}>
       {posts.length ? (
-        <Animated.FlatList
+        <Animated.FlatList<PostProps>
           data={posts}
           windowSize={windowSize}
-          renderItem={renderItem}
-          keyExtractor={({id}) => id.toString()}
+          renderItem={memoizedValue}
+          keyExtractor={keyExtractor}
           onEndReachedThreshold={0.1}
           onEndReached={paginated ? handleOnEndReached : undefined}
           initialNumToRender={initialNumToRender}

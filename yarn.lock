@@ -16474,6 +16474,11 @@ react-native-config@^1.5.1:
   resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-1.5.1.tgz#73c94f511493e9b7ff9350cdf351d203a1b05acc"
   integrity sha512-g1xNgt1tV95FCX+iWz6YJonxXkQX0GdD3fB8xQtR1GUBEqweB9zMROW77gi2TygmYmUkBI7LU4pES+zcTyK4HA==
 
+react-native-fast-image@^8.6.3:
+  version "8.6.3"
+  resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-8.6.3.tgz#6edc3f9190092a909d636d93eecbcc54a8822255"
+  integrity sha512-Sdw4ESidXCXOmQ9EcYguNY2swyoWmx53kym2zRsvi+VeFCHEdkO+WG1DK+6W81juot40bbfLNhkc63QnWtesNg==
+
 react-native-gesture-handler@^2.16.2:
   version "2.16.2"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-2.16.2.tgz#032bd2a07334292d7f6cff1dc9d1ec928f72e26d"
@@ -16485,10 +16490,10 @@ react-native-gesture-handler@^2.16.2:
     lodash "^4.17.21"
     prop-types "^15.7.2"
 
-react-native-media-console@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-media-console/-/react-native-media-console-2.1.0.tgz#f7efafcfea3f636ccae217abeef02e5497a80737"
-  integrity sha512-KeVnu+cBJUgMwKagKDwYufSeMkrG6+pRRu+kQWVbjJR7Q0wKgAUDkvtocrZcy7sv5fTvpizNPqGq1k7bmCB2NQ==
+react-native-media-console@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-media-console/-/react-native-media-console-2.2.4.tgz#76a232cdcb645cfdb25bacddee514f360eb4947d"
+  integrity sha512-CpOunVkGkMRg7DoGYlXfGITbSuqvCId7CFcWyDED3CjJ1CCym4dB670GiBNymH/Sh5p1AaW8kvHng7PZ7fYUBQ==
 
 react-native-modal-datetime-picker@^14.0.0:
   version "14.0.1"
@@ -16568,10 +16573,15 @@ react-native-vector-icons@^10.0.0:
     prop-types "^15.7.2"
     yargs "^16.1.1"
 
-react-native-video@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-6.2.0.tgz#4a22dd836ee3992383992cd9fb561d52fc69d2ec"
-  integrity sha512-7TWKGBkKrwR9V+SI6NB9YWWDZbto3fpT/02s8RnrFEac0h5aEJYe6NqTmz3TcFmIRSNepg2UsEvWGKNpWn4sCA==
+react-native-video-cache@^2.7.4:
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/react-native-video-cache/-/react-native-video-cache-2.7.4.tgz#d81b66faa58c315d33a23051f2864145e3f4b82d"
+  integrity sha512-0bSJowf9jZaPX+OohjNH6DFPf0/UDgX1foWJAS5Uyv7tuByj9sD9UNbVreEGFjNNya/xVhZffmDaLWMTrx7VBg==
+
+react-native-video@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-6.5.0.tgz#bcb591eeecc4784438a6f074ea3a456b22d6d1b7"
+  integrity sha512-P3FmyQgKigS4BmFG+6heRHzSp591U/Z+Iw08wWmiNsNiyLRa6x8B0ob4wqWTW4QfzsBf80udg1/T2W49KxxzYw==
 
 react-native-vision-camera@^4.3.2:
   version "4.3.2"
@@ -18892,10 +18902,10 @@ tuf-js@^2.2.0:
     debug "^4.3.4"
     make-fetch-happen "^13.0.0"
 
-twrnc@^3.6.6:
-  version "3.6.6"
-  resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-3.6.6.tgz#58c713fe412898e59c1d3e87d0685a85dcd109ed"
-  integrity sha512-KSu6QIUlV/ZCFbIXqQ4TN+hcTRETySK2uCgJuHNR4BPdHYVeNPxc32L4ZzU4y6CLm17zV1FN6iW52ZzgkTB6hw==
+twrnc@^4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/twrnc/-/twrnc-4.5.1.tgz#461dc328957c259574d17e66cd7379a79c59a5ad"
+  integrity sha512-kj9agxMFKdyJJM65rxmiAg/ZG74RET5VKaJU9HCEMWZORWdYYwT16A6QS2K7mrG7a0V01j3AoEvGM4QJtYt3wg==
   dependencies:
     tailwindcss ">=2.0.0"
 

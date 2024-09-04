@@ -6,6 +6,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import {AppServiceProvider} from './components/AppServiceProvider';
 import AudioScreen from './screens/AudioScreen';
 import CameraTest from './screens/CameraTest';
+import FeedReelScrollScreen from './screens/FeedReelScrollScreen';
 import FeedScreen from './screens/FeedScreen';
 import HomeScreen from './screens/HomeScreen';
 import PhotoScreen from './screens/PhotoScreen';
@@ -94,6 +95,19 @@ export default (): JSX.Element => (
           options={{
             tabBarIcon: ({color}) => (
               <MaterialCommunityIcons name="camera" color={color} size={26} />
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="FeedReel"
+          component={FeedReelScrollScreen}
+          options={{
+            tabBarIcon: ({color}) => (
+              <MaterialCommunityIcons
+                name="view-list"
+                color={color}
+                size={26}
+              />
             ),
           }}
         />
