@@ -8,3 +8,4 @@ export * from './TopControl';
 export * from './Toast';
 export * from './ToggleControl';
 export * from './MultiValueControl';
+export * from './VideoPlayer';

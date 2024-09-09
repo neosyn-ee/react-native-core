@@ -4,7 +4,7 @@ import tw from 'twrnc';
 
 import {VideoAudioCommentProps} from './VideoAudioComment.types';
 import {AudioPlayerRecorder} from '../AudioPlayerRecorder';
-import {VideoPlayer} from '../VideoPlayer';
+import VideoPlayer from '../VideoPlayer/VideoPlayer';
 import {PlayerInfoObject} from '../VideoPlayer/VideoPlayer.type';
 
 const BOTTOM_APPBAR_HEIGHT = 80;

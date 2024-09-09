@@ -13,13 +13,13 @@ import {
 } from 'react-native';
 import {IconButton} from 'react-native-paper';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import {LoadError, OnLoadData} from 'react-native-video';
+import {OnLoadData, OnVideoErrorData} from 'react-native-video';
 import tw from 'twrnc';
 
 import {MediaScreenProps} from './MediaScreen.types';
 import {SAFE_AREA_PADDING} from '../../utils/constants';
 import {isAndroid} from '../../utils/helpers';
-import {VideoPlayer} from '../VideoPlayer';
+import VideoPlayer from '../VideoPlayer/VideoPlayer';
 
 const requestSavePermission = async (): Promise<boolean> => {
   if (isAndroid()) {
@@ -87,7 +87,7 @@ const MediaScreen = ({
     [],
   );
 
-  const onMediaLoadError = useCallback((error: LoadError) => {
+  const onMediaLoadError = useCallback((error: OnVideoErrorData) => {
     console.log(`failed to load media: ${JSON.stringify(error)}`);
   }, []);
 

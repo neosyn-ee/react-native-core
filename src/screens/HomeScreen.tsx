@@ -13,10 +13,8 @@ const HomeScreen: FC = () => {
       muted={false}
       repeat
       resizeMode={ResizeMode.COVER}
-      showControls
+      controls
       showNotificationControls
-      showPoster
-      useCache
     />
   );
 };

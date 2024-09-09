@@ -29,6 +29,7 @@ const FeedScreen: FC = () => {
   return (
     <SafeAreaView style={tw`h-full`}>
       <VirtualizedVideoList
+        // @ts-ignore
         data={data}
         fetchData={fetchData}
         paginated={true}
