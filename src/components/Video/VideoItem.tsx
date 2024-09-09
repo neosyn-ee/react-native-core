@@ -1,12 +1,8 @@
 import {useIsFocused} from '@react-navigation/native';
 import React, {useEffect, useState} from 'react';
-import {Dimensions, View} from 'react-native';
-export const SCREEN_HEIGHT = Dimensions.get('window').height;
-export const SCREEN_WIDTH = Dimensions.get('window').width;
+import {Dimensions, StyleSheet, View} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import Video from 'react-native-video';
-import convertToProxyURL from 'react-native-video-cache';
-import tw from 'twrnc';
 
 import {PostProps} from '../Post/Post.types';
 
@@ -44,9 +40,8 @@ const VideoItem: React.FC<VideoItemProps> = ({isVisible, item, preload}) => {
   };
 
   return (
-    <View style={tw`h-[${SCREEN_HEIGHT}px] w-[${SCREEN_WIDTH}px] grow flex-1`}>
-      <View
-        style={tw`absolute top-0 left-0 bottom-0 right-0 flex-1 h-[${SCREEN_HEIGHT}px] aspect-9/16`}>
+    <View style={styles.media}>
+      <View style={styles.media}>
         {!videoLoaded && (
           <FastImage
             source={{
@@ -54,7 +49,6 @@ const VideoItem: React.FC<VideoItemProps> = ({isVisible, item, preload}) => {
               priority: FastImage.priority.high,
             }}
             resizeMode={FastImage.resizeMode.cover}
-            style={tw`absolute top-0 left-0 bottom-0 right-0 flex-1 h-[${SCREEN_HEIGHT}px] aspect-9/16`}
             //   defaultSource={Loader}
           />
         )}
@@ -68,22 +62,21 @@ const VideoItem: React.FC<VideoItemProps> = ({isVisible, item, preload}) => {
               },
             }}
             source={
-              isVisible || preload
-                ? {uri: convertToProxyURL(item.video.source?.uri ?? '') ?? ''}
-                : undefined
+              isVisible || preload ? {uri: item.video.source?.uri} : undefined
             }
             bufferConfig={{
               minBufferMs: 2500,
               maxBufferMs: 3000,
               bufferForPlaybackMs: 2500,
               bufferForPlaybackAfterRebufferMs: 2500,
+              cacheSizeMB: 200,
             }}
             ignoreSilentSwitch="ignore"
             playWhenInactive={false}
             playInBackground={false}
             controls={false}
             disableFocus={true}
-            style={tw`absolute top-0 left-0 bottom-0 right-0 flex-1 h-[${SCREEN_HEIGHT}px] aspect-9/16`}
+            style={styles.media}
             paused={isPaused}
             repeat
             hideShutterView
@@ -97,4 +90,11 @@ const VideoItem: React.FC<VideoItemProps> = ({isVisible, item, preload}) => {
     </View>
   );
 };
+const styles = StyleSheet.create({
+  media: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+  },
+});
+
 export default VideoItem;

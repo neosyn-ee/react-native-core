@@ -4,7 +4,7 @@ import {type PostType} from '../Post/Post.types';
 
 export type VirtualizedVideoListProps<TItem> =
   VirtualizedListWithoutRenderItemProps<TItem> & {
-    data: Array<PostType>;
+    data: PostType[];
     paginated?: boolean;
     pagesNum?: number;
     viewAreaCoveragePercentThreshold?: number;
