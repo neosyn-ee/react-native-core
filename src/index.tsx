@@ -3,6 +3,7 @@ import AudioPlayerRecorder, {
   checkPermissions,
 } from './components/AudioPlayerRecorder/AudioPlayerRecorder';
 import CameraScreen from './components/CameraScreen/CameraScreen';
+import FeedReelScroll from './components/FeedReelScroll';
 import MediaScreen from './components/MediaScreen/MediaScreen';
 import Post from './components/Post/Post';
 import Spinner from './components/Spinner/Spinner';
@@ -48,6 +49,7 @@ export {
   checkPermissions,
   MediaScreen,
   VideoAudioComment,
+  FeedReelScroll,
   Post,
   SCREEN_ASPECT_RATIO,
   SAFE_AREA_PADDING,

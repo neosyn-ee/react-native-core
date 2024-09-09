@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {CameraScreen} from '../components/CameraScreen';
 import {onMediaCaptured} from '../components/CameraScreen/CameraScreen.stories';
 

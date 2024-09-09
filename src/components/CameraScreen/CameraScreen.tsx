@@ -191,7 +191,7 @@ const CameraScreen = ({
           <AnimatedCamera
             ref={camera}
             style={tw`flex-1 relative`}
-            orientation="portrait"
+            outputOrientation="portrait"
             onError={onError}
             isActive={isActive}
             device={device}

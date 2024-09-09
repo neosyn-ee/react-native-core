@@ -20,6 +20,8 @@ const FeedScreen: FC = () => {
     const end = page * pageLength;
     const start = end - pageLength;
     const newData = fakeData.slice(start, end);
+    console.log('newData', newData);
+
     setData(newData);
     return 1;
   };
@@ -32,6 +34,7 @@ const FeedScreen: FC = () => {
         paginated={true}
         pagesNum={pagesNum}
         viewAreaCoveragePercentThreshold={60}
+        windowSize={11}
       />
     </SafeAreaView>
   );

@@ -5,11 +5,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#0b1335",
-        secondary: "#f73911",
+        primary: '#0b1335',
+        secondary: '#f73911',
         success: '#4cad6e',
         danger: '#f2686e',
-        warning: '#ffb830'
+        warning: '#ffb830',
+      },
+      aspectRatio: {
+        '9/16': '9 / 16',
       },
     },
   },

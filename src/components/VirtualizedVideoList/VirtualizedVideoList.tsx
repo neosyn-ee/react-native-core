@@ -1,185 +1,91 @@
-import {useFocusEffect} from '@react-navigation/native';
+import {FlashList} from '@shopify/flash-list';
+import {debounce} from 'lodash';
 import React, {useCallback, useEffect, useRef, useState} from 'react';
-import {View, ViewToken} from 'react-native';
-import Animated, {
-  useAnimatedScrollHandler,
-  useSharedValue,
-} from 'react-native-reanimated';
+import {
+  Dimensions,
+  FlatList,
+  ListRenderItemInfo,
+  View,
+  ViewToken,
+} from 'react-native';
 import tw from 'twrnc';
 
-import {VirtualizedVideoListProps} from './VirtualizedVideoList.type';
-import Post from '../Post/Post';
-import {PostExposedInstanceValue, PostType} from '../Post/Post.types';
-import Spinner from '../Spinner/Spinner';
+import fakeData from '../../storage/database/post';
+import {PostProps, PostType} from '../Post/Post.types';
+import VideoItem from '../Video/VideoItem';
+export const SCREEN_HEIGHT = Dimensions.get('window').height;
 
-const VirtualizedVideoList = <TItem,>({
-  data,
-  paginated,
-  pagesNum,
-  viewAreaCoveragePercentThreshold,
-  fetchData,
-  initialNumToRender = 5,
-  maxToRenderPerBatch = 5,
-  windowSize = 5,
-  restStateOnblur,
-  showsHorizontalScrollIndicator = false,
-  showsVerticalScrollIndicator = false,
-  ...props
-}: VirtualizedVideoListProps<TItem>): JSX.Element => {
+const fetchData = async (
+  offset: number,
+  limit: number,
+): Promise<PostProps[]> => {
+  if (offset < 0 || offset >= fakeData.length) {
+    throw new Error(`Error: offset ${offset} is out of range`);
+  }
+
+  const newData = fakeData.slice(offset, offset + limit);
+
+  console.log('offset', offset);
+
+  return newData;
+};
+
+const VirtualizedVideoList = ({}): JSX.Element => {
   const [posts, setPosts] = useState<PostType[]>([]);
-  const [currentPage, setCurrentPage] = useState<number>(1);
-  const [refreshing, setRefreshing] = useState<boolean>(false);
-  const mediaRefs = useRef<PostExposedInstanceValue[]>([]);
-  const lastContentOffset = useSharedValue(0);
-  const isScrolling = useSharedValue(false);
-  const scrollDirection = useSharedValue('');
+  const [currentVisibleIndex, setCurrentVisibleIndex] = useState(0);
 
-  const scrollHandler = useAnimatedScrollHandler({
-    onScroll: event => {
-      if (lastContentOffset.value > event.contentOffset.y) {
-        if (isScrolling.value) {
-          scrollDirection.value = 'UP';
-        }
-      } else if (lastContentOffset.value < event.contentOffset.y) {
-        if (isScrolling.value) {
-          scrollDirection.value = 'DOWN';
-        }
+  const viewabilityConfig = useRef({
+    itemVisiblePercentThreshold: 0,
+  }).current;
+
+  const onViewableItemsChanged = useRef(
+    debounce(({viewableItems}: {viewableItems: ViewToken[]}) => {
+      if (viewableItems.length > 0) {
+        setCurrentVisibleIndex(viewableItems[0].index || 0);
+        console.log('viewableItems[0].index', viewableItems[0].index);
       }
-      lastContentOffset.value = event.contentOffset.y;
-    },
-    onBeginDrag: () => {
-      isScrolling.value = true;
-    },
-    onEndDrag: () => {
-      isScrolling.value = false;
-    },
-  });
+    }),
+  ).current;
 
-  const onViewableItemsChanged = useCallback(
-    ({
-      changed,
-      viewableItems,
-    }: {
-      changed: ViewToken[];
-      viewableItems: ViewToken[];
-    }) => {
-      let keyToPlay: ViewToken['key'];
-      if (viewableItems.length > 1) {
-        if (scrollDirection.value === 'DOWN') {
-          keyToPlay = viewableItems[viewableItems.length - 1].key;
-        } else if (scrollDirection.value === 'UP' || !scrollDirection.value) {
-          keyToPlay = viewableItems[viewableItems.length - 2].key;
-        }
-      }
-      viewableItems.forEach(({key}: ViewToken) => {
-        const cell = mediaRefs.current[+key];
-        if (keyToPlay) {
-          if (keyToPlay === key) {
-            cell?.play();
-          } else {
-            cell?.stop();
-          }
-        } else {
-          cell?.play();
-        }
-      });
+  const renderVideoList = useCallback(
+    ({index, item}: ListRenderItemInfo<PostProps>) => {
+      console.log('item', item.id);
+      console.log(
+        'currentVisibleIndex === index',
+        currentVisibleIndex === index,
+      );
 
-      changed.forEach(({key, isViewable}) => {
-        const cell = mediaRefs.current[+key];
-        if (cell) {
-          if (!isViewable) {
-            cell.stop();
-          }
-        }
-      });
+      return (
+        // <View style={tw`flex-1 h-[${SCREEN_HEIGHT}]px`} key={index}>
+        <VideoItem
+          isVisible={currentVisibleIndex === index}
+          item={item}
+          preload={Math.abs(currentVisibleIndex + 5) >= index}
+        />
+        // </View>
+      );
     },
-    [],
+    [currentVisibleIndex],
   );
 
-  const handleOnEndReached = async () => {
-    if (currentPage < pagesNum! && !refreshing) {
-      try {
-        setRefreshing(true);
-        const res = await fetchData?.(currentPage + 1);
-        if (res) {
-          setCurrentPage(currentPage + 1);
-        }
-      } catch (error) {
-        console.error(error);
-      } finally {
-        setRefreshing(false);
-      }
-    }
-  };
-
-  const renderItem = useCallback(
-    ({item: itemProps}: {item: PostType}): JSX.Element => (
-      <Post
-        {...itemProps}
-        video={{
-          ...itemProps.video,
-          videoContainerStyle: props.contentContainerStyle,
-        }}
-        ref={(postRef: PostExposedInstanceValue) =>
-          (mediaRefs.current[itemProps.id] = postRef)
-        }
-      />
-    ),
-    [],
-  );
-
-  const maxItemNum = 100;
-  const itemsCount = data.length;
   useEffect(() => {
-    setPosts(prev => {
-      const oldData =
-        prev.length <= maxItemNum - itemsCount ? prev : prev.slice(itemsCount);
-      return [...oldData, ...data];
-    });
-  }, [data]);
+    setPosts(fakeData.slice(0, 10));
+  }, []);
 
-  useFocusEffect(
-    React.useCallback(() => {
-      return () => {
-        restStateOnblur && setPosts([]);
-      };
-    }, [restStateOnblur]),
-  );
-
-  const SpinnerComponent = (loading: boolean) => (loading ? <Spinner /> : null);
-
-  const onRefresh = async () => {
-    const initialPage = 1;
-    setPosts([]);
-    setCurrentPage(initialPage);
-    await fetchData?.(initialPage);
-  };
+  const keyExtractor = useCallback((item: PostProps) => item.id.toString(), []);
 
   return (
     <View style={tw`flex-1`}>
       {posts.length ? (
-        <Animated.FlatList
+        <FlatList<PostProps>
           data={posts}
-          windowSize={windowSize}
-          renderItem={renderItem}
-          keyExtractor={({id}) => id.toString()}
-          onEndReachedThreshold={0.1}
-          onEndReached={paginated ? handleOnEndReached : undefined}
-          initialNumToRender={initialNumToRender}
-          maxToRenderPerBatch={maxToRenderPerBatch}
-          refreshing={refreshing}
-          viewabilityConfig={{
-            minimumViewTime: 100,
-            viewAreaCoveragePercentThreshold,
-          }}
+          renderItem={renderVideoList}
+          // estimatedItemSize={10}
+          keyExtractor={keyExtractor}
+          numColumns={1}
+          viewabilityConfig={viewabilityConfig}
           onViewableItemsChanged={onViewableItemsChanged}
-          onScroll={scrollHandler}
-          removeClippedSubviews
-          onRefresh={onRefresh}
-          ListFooterComponent={SpinnerComponent(refreshing)}
-          showsHorizontalScrollIndicator={showsHorizontalScrollIndicator}
-          showsVerticalScrollIndicator={showsVerticalScrollIndicator}
-          {...props}
+          onEndReachedThreshold={0.1}
         />
       ) : null}
     </View>

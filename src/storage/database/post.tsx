@@ -9,11 +9,11 @@ const data: PostType[] = [
     id: 1,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_30-8-2024_13-15-29.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -44,11 +44,11 @@ const data: PostType[] = [
     id: 2,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -70,11 +70,11 @@ const data: PostType[] = [
     id: 3,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -103,11 +103,11 @@ const data: PostType[] = [
     id: 4,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -131,11 +131,11 @@ const data: PostType[] = [
     id: 5,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -162,11 +162,11 @@ const data: PostType[] = [
     id: 6,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -189,11 +189,11 @@ const data: PostType[] = [
     id: 7,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -221,11 +221,11 @@ const data: PostType[] = [
     id: 8,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -258,11 +258,11 @@ const data: PostType[] = [
     id: 9,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -292,11 +292,11 @@ const data: PostType[] = [
     id: 10,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -322,11 +322,11 @@ const data: PostType[] = [
     id: 11,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -357,11 +357,11 @@ const data: PostType[] = [
     id: 12,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -383,11 +383,11 @@ const data: PostType[] = [
     id: 13,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -416,11 +416,11 @@ const data: PostType[] = [
     id: 14,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -444,11 +444,11 @@ const data: PostType[] = [
     id: 15,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -475,11 +475,11 @@ const data: PostType[] = [
     id: 16,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -502,11 +502,11 @@ const data: PostType[] = [
     id: 17,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -534,11 +534,11 @@ const data: PostType[] = [
     id: 18,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -571,11 +571,11 @@ const data: PostType[] = [
     id: 19,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -605,11 +605,11 @@ const data: PostType[] = [
     id: 20,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -635,11 +635,11 @@ const data: PostType[] = [
     id: 21,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -670,11 +670,11 @@ const data: PostType[] = [
     id: 22,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -696,11 +696,11 @@ const data: PostType[] = [
     id: 23,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -729,11 +729,11 @@ const data: PostType[] = [
     id: 24,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -757,11 +757,11 @@ const data: PostType[] = [
     id: 25,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -788,11 +788,11 @@ const data: PostType[] = [
     id: 26,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -815,11 +815,11 @@ const data: PostType[] = [
     id: 27,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -847,11 +847,11 @@ const data: PostType[] = [
     id: 28,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -884,11 +884,11 @@ const data: PostType[] = [
     id: 29,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -918,11 +918,11 @@ const data: PostType[] = [
     id: 30,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -948,11 +948,11 @@ const data: PostType[] = [
     id: 31,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -983,11 +983,11 @@ const data: PostType[] = [
     id: 32,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1009,11 +1009,11 @@ const data: PostType[] = [
     id: 33,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1042,11 +1042,11 @@ const data: PostType[] = [
     id: 34,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1070,11 +1070,11 @@ const data: PostType[] = [
     id: 35,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1101,11 +1101,11 @@ const data: PostType[] = [
     id: 36,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1128,11 +1128,11 @@ const data: PostType[] = [
     id: 37,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1160,11 +1160,11 @@ const data: PostType[] = [
     id: 38,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1197,11 +1197,11 @@ const data: PostType[] = [
     id: 39,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1231,11 +1231,11 @@ const data: PostType[] = [
     id: 40,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1261,11 +1261,11 @@ const data: PostType[] = [
     id: 41,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1296,11 +1296,11 @@ const data: PostType[] = [
     id: 42,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1322,11 +1322,11 @@ const data: PostType[] = [
     id: 43,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1355,11 +1355,11 @@ const data: PostType[] = [
     id: 44,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1383,11 +1383,11 @@ const data: PostType[] = [
     id: 45,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1414,11 +1414,11 @@ const data: PostType[] = [
     id: 46,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1441,11 +1441,11 @@ const data: PostType[] = [
     id: 47,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1473,11 +1473,11 @@ const data: PostType[] = [
     id: 48,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1510,11 +1510,11 @@ const data: PostType[] = [
     id: 49,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1544,11 +1544,11 @@ const data: PostType[] = [
     id: 50,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1574,11 +1574,11 @@ const data: PostType[] = [
     id: 51,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1609,11 +1609,11 @@ const data: PostType[] = [
     id: 52,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1635,11 +1635,11 @@ const data: PostType[] = [
     id: 53,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1668,11 +1668,11 @@ const data: PostType[] = [
     id: 54,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1696,11 +1696,11 @@ const data: PostType[] = [
     id: 55,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1727,11 +1727,11 @@ const data: PostType[] = [
     id: 56,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1754,11 +1754,11 @@ const data: PostType[] = [
     id: 57,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1786,11 +1786,11 @@ const data: PostType[] = [
     id: 58,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1823,11 +1823,11 @@ const data: PostType[] = [
     id: 59,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1857,11 +1857,11 @@ const data: PostType[] = [
     id: 60,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1887,11 +1887,11 @@ const data: PostType[] = [
     id: 61,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1922,11 +1922,11 @@ const data: PostType[] = [
     id: 62,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1948,11 +1948,11 @@ const data: PostType[] = [
     id: 63,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -1981,11 +1981,11 @@ const data: PostType[] = [
     id: 64,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2009,11 +2009,11 @@ const data: PostType[] = [
     id: 65,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2040,11 +2040,11 @@ const data: PostType[] = [
     id: 66,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2067,11 +2067,11 @@ const data: PostType[] = [
     id: 67,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2099,11 +2099,11 @@ const data: PostType[] = [
     id: 68,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2136,11 +2136,11 @@ const data: PostType[] = [
     id: 69,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2170,11 +2170,11 @@ const data: PostType[] = [
     id: 70,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2200,11 +2200,11 @@ const data: PostType[] = [
     id: 71,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2235,11 +2235,11 @@ const data: PostType[] = [
     id: 72,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2261,11 +2261,11 @@ const data: PostType[] = [
     id: 73,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2294,11 +2294,11 @@ const data: PostType[] = [
     id: 74,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2322,11 +2322,11 @@ const data: PostType[] = [
     id: 75,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2353,11 +2353,11 @@ const data: PostType[] = [
     id: 76,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2380,11 +2380,11 @@ const data: PostType[] = [
     id: 77,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2412,11 +2412,11 @@ const data: PostType[] = [
     id: 78,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2449,11 +2449,11 @@ const data: PostType[] = [
     id: 79,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2483,11 +2483,11 @@ const data: PostType[] = [
     id: 80,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2513,11 +2513,11 @@ const data: PostType[] = [
     id: 81,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2548,11 +2548,11 @@ const data: PostType[] = [
     id: 82,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2574,11 +2574,11 @@ const data: PostType[] = [
     id: 83,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2607,11 +2607,11 @@ const data: PostType[] = [
     id: 84,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2635,11 +2635,11 @@ const data: PostType[] = [
     id: 85,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2666,11 +2666,11 @@ const data: PostType[] = [
     id: 86,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2693,11 +2693,11 @@ const data: PostType[] = [
     id: 87,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2725,11 +2725,11 @@ const data: PostType[] = [
     id: 88,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2762,11 +2762,11 @@ const data: PostType[] = [
     id: 89,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2796,11 +2796,11 @@ const data: PostType[] = [
     id: 90,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2826,11 +2826,11 @@ const data: PostType[] = [
     id: 91,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2861,11 +2861,11 @@ const data: PostType[] = [
     id: 92,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2887,11 +2887,11 @@ const data: PostType[] = [
     id: 93,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2920,11 +2920,11 @@ const data: PostType[] = [
     id: 94,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2948,11 +2948,11 @@ const data: PostType[] = [
     id: 95,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -2979,11 +2979,11 @@ const data: PostType[] = [
     id: 96,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3006,11 +3006,11 @@ const data: PostType[] = [
     id: 97,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3038,11 +3038,11 @@ const data: PostType[] = [
     id: 98,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3075,11 +3075,11 @@ const data: PostType[] = [
     id: 99,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3109,11 +3109,11 @@ const data: PostType[] = [
     id: 100,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3139,11 +3139,11 @@ const data: PostType[] = [
     id: 101,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3174,11 +3174,11 @@ const data: PostType[] = [
     id: 102,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3200,11 +3200,11 @@ const data: PostType[] = [
     id: 103,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3233,11 +3233,11 @@ const data: PostType[] = [
     id: 104,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3261,11 +3261,11 @@ const data: PostType[] = [
     id: 105,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3292,11 +3292,11 @@ const data: PostType[] = [
     id: 106,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3319,11 +3319,11 @@ const data: PostType[] = [
     id: 107,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3351,11 +3351,11 @@ const data: PostType[] = [
     id: 108,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3388,11 +3388,11 @@ const data: PostType[] = [
     id: 109,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3422,11 +3422,11 @@ const data: PostType[] = [
     id: 110,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3452,11 +3452,11 @@ const data: PostType[] = [
     id: 111,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3487,11 +3487,11 @@ const data: PostType[] = [
     id: 112,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3513,11 +3513,11 @@ const data: PostType[] = [
     id: 113,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3546,11 +3546,11 @@ const data: PostType[] = [
     id: 114,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3574,11 +3574,11 @@ const data: PostType[] = [
     id: 115,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3605,11 +3605,11 @@ const data: PostType[] = [
     id: 116,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3632,11 +3632,11 @@ const data: PostType[] = [
     id: 117,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3664,11 +3664,11 @@ const data: PostType[] = [
     id: 118,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://upload.wikimedia.org/wikipedia/commons/1/18/Tears_of_Steel_frame_01_2a.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3701,11 +3701,11 @@ const data: PostType[] = [
     id: 119,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,
@@ -3735,11 +3735,11 @@ const data: PostType[] = [
     id: 120,
     video: {
       source: {
-        uri: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+        uri: 'https://video-p2cam-uat-eu-central-1.s3.eu-central-1.amazonaws.com/roberto_garaffa_15/roberto_garaffa_15_28-8-2024_13-7-41.mp4',
       },
       thumb:
         'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg',
-      autoplay: false,
+      autoplay: true,
       disableControlsWhen: {default: true, fullscreen: true},
       muted: true,
       repeat: true,

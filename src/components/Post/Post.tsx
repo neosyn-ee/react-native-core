@@ -70,7 +70,7 @@ const Post = memo(
       const unload = () => {
         if (
           typeof source !== 'number' &&
-          source.hasOwnProperty('uri') &&
+          source?.hasOwnProperty('uri') &&
           source.uri
         ) {
           setSource({uri: undefined});

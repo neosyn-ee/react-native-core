@@ -1,10 +1,10 @@
-import {VideoProperties} from 'react-native-video';
+import {ReactVideoProps} from 'react-native-video';
 
 import {VideoPlayerProps} from '../VideoPlayer/VideoPlayer.type';
 
 export type VideoData = {
   id: number;
-  source: VideoProperties['source'];
+  source: ReactVideoProps['source'];
 };
 
 export type PostProps = {
